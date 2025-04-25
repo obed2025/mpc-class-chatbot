@@ -1,0 +1,30 @@
+#about {
+  margin: auto;
+  width: min(90%, 900px);
+  padding-inline: 1rem;
+}
+
+h1 {
+  text-align: center;
+  color: var(--fgColor-accent);
+}
+
+h2 {
+  color: var(--fgColor-success);
+}
+
+li {
+  list-style-type: square;
+}
+
+li::marker {
+  color: var(--color-prettylights-syntax-variable);
+}
+
+strong {
+  color: var(--color-prettylights-syntax-variable);
+}
+
+h2.limitations {
+  color: var(--fgColor-danger);
+}

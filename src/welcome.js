@@ -33,8 +33,6 @@ function showWelcomeEl() {
 
   const mpc = '<strong class="right">MPC</strong> class.';
 
-  const buyMeAcoffee = `Click <a href="tel:*182*8*1*1312853%23">here</a> to buy me a coffee using our MOMO Pay code : <strong class="strong">1312853</strong>`;
-
   typewriter
     .pauseFor(2500)
     .typeString(p1)
@@ -43,8 +41,5 @@ function showWelcomeEl() {
     .pauseFor(1000)
     .typeString(mpc)
     .pauseFor(1500)
-    .deleteAll(1)
-    .pauseFor(1500)
-    .typeString(buyMeAcoffee)
     .start();
 }

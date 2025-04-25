@@ -82,7 +82,7 @@ div:has(.welcome) {
 }
 
 .right {
-  color: var(--accent-2);
+  color: #084508;
   font-weight: bold;
 }
 
